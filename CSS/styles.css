@@ -98,6 +98,10 @@ img {
     }
 }
 
+.barra {
+    padding-top: 4rem;
+}
+
 @media (min-width: 768px) {
     .barra {
         display: flex;
@@ -130,6 +134,12 @@ img {
     text-align: center;
     font-size: 1.8rem;
     color: var(--blanco);
+}
+
+.navegacion__enlace:hover,
+.navegacion__enlace:focus {
+    background-color: var(--naranja);
+    color: var(--negro);
 }
 
 /* Blog */
@@ -192,7 +202,7 @@ img {
     margin-bottom: 2rem;
 }
 
-.widget-curso:last-of-type{
+.widget-curso:last-of-type {
     border-bottom: none;
     margin-bottom: 0;
 }
@@ -206,4 +216,10 @@ img {
 .widget-curso__info {
     font-weight: 400;
     font-size: 2rem;
+}
+
+.footer {
+    background-color: var(--negro);
+    padding-bottom: 3rem;
+    margin-top: 4rem;
 }
