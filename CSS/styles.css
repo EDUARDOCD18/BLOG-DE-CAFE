@@ -260,3 +260,10 @@ img {
 .curso__info {
     font-weight: normal;
 }
+
+/* Contacto */
+.contacto-bg{
+    background-image: url(../IMG/contacto.jpg);
+    height: 40rem;
+    background-repeat: no-repeat;
+}
