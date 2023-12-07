@@ -171,12 +171,14 @@ img {
     text-transform: uppercase;
     font-weight: 700;
     margin-bottom: 2rem;
+    border: none;
 }
 
 .boton:hover,
 .boton:focus {
     background-color: var(--naranja);
     color: var(--negro);
+    cursor: pointer;
 }
 
 @media (min-width: 768px) {
@@ -262,8 +264,35 @@ img {
 }
 
 /* Contacto */
-.contacto-bg{
+.contacto-bg {
     background-image: url(../IMG/contacto.jpg);
     height: 40rem;
     background-repeat: no-repeat;
+}
+
+.formulario {
+    background-color: var(--blanco);
+    margin: -5rem auto;
+    width: 95%;
+    padding: 5rem;
+}
+
+.campo {
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.campo__label {
+    flex: 0 0 9rem;
+    text-align: right;
+    padding-right: 2rem;
+}
+
+.campo__field {
+    flex: 1;
+    border: 1px solid var(--gris);
+}
+
+.campo__field--textarea {
+    height: 20rem;
 }
